@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14.25 17.42">
+    <defs>
+        <style>.cls-1,.cls-2,.cls-3,.cls-4,.cls-5,.cls-6,.cls-7{fill:none;stroke-miterlimit:10;stroke-width:0.9px;}.cls-1{stroke:#0099ff;}.cls-2{stroke:#0099ff;}.cls-3{stroke:#0099ff;}.cls-4{stroke:#0099ff;}.cls-5{stroke:#0099ff;}.cls-6{stroke:#0099ff;}.cls-7{stroke:#0099ff;}
+        </style>
+    </defs>
+    <g id="Layer_2" data-name="Layer 2">
+        <g id="Layer_1-2" data-name="Layer 1"><path class="cls-1" d="M.1,1.1v15"/><line class="cls-1" x1="2.1" y1="1.1" x2="2.1" y2="15.1"/><path class="cls-2" d="M.1,1.1a1,1,0,0,1,2,0"/><path class="cls-3" d="M2.1,15.1l9.44-6.61"/><path class="cls-3" d="M3.1,17.1l10-7"/><path class="cls-4" d="M.1,16.1a2.29,2.29,0,0,0,1,1,2.4,2.4,0,0,0,2,0"/><path class="cls-5" d="M11.51,8.75,5,4.86"/><path class="cls-5" d="M13.35,7.1,5.77,2.77"/><path class="cls-6" d="M13.1,7a1.76,1.76,0,0,1,1,1.1,1.83,1.83,0,0,1-1,2"/><path class="cls-7" d="M6.1,2.92c-.85-.5-1.74-.39-2,0s0,1.43,1,2"/>
+        </g>
+    </g>
+</svg>

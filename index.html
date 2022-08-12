@@ -1,0 +1,695 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Init</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="media/animate.min.css">
+<link rel="stylesheet" href="media/bootstrap.min.css">
+<link rel="icon" href="media/logoo.png">
+  <style>
+
+
+body{
+  margin: 0;
+  padding: 0;
+  /*overflow: hidden;*/
+  background: #262626;
+}
+  .container{
+    position: fixed;
+    top: 0;
+    height:auto;
+    width: 100%;
+    background: #262626;
+    overflow:hidden;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  }
+
+ .brand{
+    position:relative;
+    top: 20px;
+    left: 0;
+    height: 150px;
+    width: 100%;
+    /*background: #0ff;*/
+    /*border-bottom: 1px solid #666666;*/
+  }
+
+
+ #myCarousel{
+
+    position: relative;
+    height:auto;
+    width: 50%;
+    margin-top: 20px;
+    /*background: #0f0;*/
+    overflow:hidden;
+    /*background-image: url();*/
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  float: left;
+  }
+   #myCarousel1{
+
+    position: relative;
+    /*height:400px;*/
+    width: 50%;
+    margin-top: 40px;
+    /*background: #f00;*/
+    overflow:hidden;
+    /*background-image: url();*/
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  float: left;
+  }
+
+  #prodstore{
+    position:relative;
+    /*top: 5%;*/
+    left: 0;
+    height: 20%;
+    width: 100%;
+    /*background: #fff;*/
+    line-height: 100%;
+    text-decoration: underline;
+    /*border-bottom: 1px solid #666666;*/
+  }
+    #innitprodstore{
+    position:relative;
+    top: 0;
+    left: 0;
+    height: 50%;
+    width: 100%;
+    /*background: #000;*/
+    /*line-height: 30%;*/
+
+    /*border-bottom: 1px solid #666666;*/
+  }
+    #prodbuy{
+    position:relative;
+    top: 0;
+    left: 0;
+    height: 20%;
+    width: 100%;
+    /*background: #0ff;*/
+    /*border-bottom: 1px solid #666666;*/
+
+  }
+
+ #prodstore p{
+position: absolute;
+top: 80%;
+left: 10%;
+/*background: #0ff;*/
+/*transform: translate(-50%,-50%);*/
+  font-size: 1.1em;
+  text-transform: uppercase;
+    /*text-decoration: underline;*/
+  font-family:cursive;
+  font-weight: bold;
+  letter-spacing: 3px;
+  color: grey;
+
+  }
+
+.innitproduct{
+position: relative;
+/*background: #0f0;*/
+margin-left: 10%;
+/*transform: translate(-50%,-50%);*/
+  font-size: 6em;
+  text-transform: uppercase;
+  font-family:Arial Rounded MT Bold;
+  letter-spacing: 5px;
+  color: #fff;
+  justify-content: center;
+  float: left;
+
+
+  }
+
+  .innitproduct1{
+position: relative;
+/*background: #f00;*/
+margin-left: 10%;
+margin-top: 10px;
+/*transform: translate(-50%,-50%);*/
+  font-size: 1.1em;
+  /*text-transform: uppercase;*/
+  font-family:Arial Rounded MT Bold;
+  /*letter-spacing: 5px;*/
+  color: #fff;
+  justify-content: center;
+  float: left;
+
+
+  }
+
+  .btn{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    overflow:hidden;
+    transform: translate(-50%,-50%);
+    width: 170px;
+    height: 50px;
+    background: #262626;
+    line-height: 32px;
+    color: #fff;
+    font-size: 1.1em;
+    border-radius: none;
+  text-transform: uppercase;
+  font-family:rockwell;
+  border: 2px solid #fff;
+  transition: 1s;
+/*background: #f00;*/
+  }
+  .btn:before{
+    content: 'Shop More';
+     position: absolute;
+    left: 0%;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    color: #262626;
+    line-height: 45px;
+    transition: 1s;
+
+  }
+
+  .btn:hover:before{
+    background: #262626;
+    color: #fff;
+  }
+
+  /*@-webkit-keyframes slide{
+  0%{
+    top: 0%;
+    color: #fff;
+  }
+  50%{
+   top: 50%;
+    color: #fff;
+    
+  }
+  100%{
+   top: 100%;
+    color: #fff;
+    
+  }
+  }
+
+
+    @-webkit-keyframes slid{
+  0%{
+    top: 100%;
+    color: #262626;
+    
+  }
+  50%{
+   top: 50%;
+    color: #262626;
+    
+  }
+  100%{
+   top: 0%;
+    color: #262626;
+    
+  }
+  }*/
+
+
+.disclaimer{
+  position: relative;
+  margin:0;
+  width: 100%;
+  height: 50px;
+  background: #fff;
+  color: #262626;
+  font-size: 1.1em;
+  line-height: 50px;
+  text-align: center;
+  /*text-shadow: 2px -3px 1px #fff;*/
+   text-transform: uppercase;
+  font-family:cursive;
+  font-weight: bold;
+  letter-spacing: 5px;
+  float: left;
+}
+
+.logged{
+    position: relative;
+  margin:0;
+  width: 100%;
+  height: 100px;
+  /*background: #0ff;*/
+  float: left;
+}
+
+.logo{
+  position: relative;
+  width:200px;
+  height: 100px;
+  /*background: #0f0;*/
+    float: left;
+  cursor: pointer;
+
+}
+.int{
+  position: relative;
+  width:100%;
+  height: auto;
+  margin-top: 0;
+  /*background: #0f0;*/
+  color: #262626;
+  font-size: 4em;
+  text-shadow: 2px -2px 1px #fff;
+   text-transform: uppercase;
+   font-weight: bolder;
+  font-family:rockwell;
+  letter-spacing: 10px;
+  text-align: center;
+
+}
+
+.onshop{
+  position: relative;
+  width:100%;
+  height: auto;
+  margin-top: -5%;
+  /*background: #0f0;*/
+  color: #fff;
+  font-size: .6em;
+  /*text-shadow: 2px -3px 1px #fff;*/
+   text-transform: uppercase;
+  font-family:Arial Rounded MT Bold;
+  letter-spacing: 5px;
+  text-align: center;
+
+}
+
+.story{
+  position: relative;
+  margin-right: 10%;
+  width:auto;
+  height: 100px;
+  /*background: #0f0;*/
+  line-height: 90px;
+  color: #fff;
+  font-size: 1.5em;
+  font-family:rockwell;
+  text-align: right;
+  float: right;
+  cursor: pointer;
+}
+
+.hr{
+  width: 150%;
+  height: 2px;
+  margin-top: -30%;
+  margin-left: 0;
+}
+
+.otherproducts{
+
+    position: absolute;
+    left: 0;
+    top: 0;
+    height:100%;
+    width: 100%;
+    /*margin-top:0;*/
+    background: #0f0;
+    overflow:hidden;
+    /*float: left;*/
+}
+
+.otherproducts1{
+
+    position: absolute;
+    left: 0;
+    top: 0;
+    height:100%;
+    width: 100%;
+    /*margin-top:0;*/
+    background: #000;
+    overflow:hidden;
+    /*float: left;*/
+}
+.otherproducts2{
+
+    position: absolute;
+    left: 0;
+    top: 0;
+    height:100%;
+    width: 100%;
+    /*margin-top:0;*/
+    background: #f00;
+    overflow:hidden;
+    /*float: left;*/
+}
+
+
+  #product{
+
+    position: relative;
+    height:auto;
+    width: 100%;
+    /*margin-top:auto;*/
+    color: #fff;
+    /*background: #0f0;*/
+    overflow:hidden;
+    float: left;
+  }
+
+  .ec-cart-widget{
+    float: right;
+    margin-right: 1%;
+  }
+
+
+  @media screen and (max-width: 850px) {
+
+    .innitproduct{
+  margin-left: 10%;
+  font-size: 2.5em;
+  }
+  #myCarousel1{
+    margin-top: 0px;
+}
+
+ #prodstore p{
+font-size: .9em;
+
+  }
+
+    .disclaimer{
+  font-size: .95em;
+}
+
+  .story{
+  font-size: 1.3em;
+}
+
+  .innitproduct1{
+  margin-top: 0;
+  font-size: .95em;
+  }
+  #prodstore p{
+    top: 50%;
+  left: 10%;
+  }
+   .btn{
+    top: 100%;
+    width: 130px;
+    height: 40px;
+    line-height: 24px;
+    font-size: .9em;
+  }
+     .btn:before{
+    line-height: 35px;
+    /*font-size: .9em;*/
+  }
+  }
+
+
+  @media screen and (max-width: 750px) {
+
+   .brand{
+    height: 80px;
+  }
+
+   #myCarousel{
+  width: 100%;
+}
+ #myCarousel1{
+  width: 100%;
+    margin-top: 40px;
+}
+
+ #prodstore p{
+top: 20%;
+left: 5%;
+font-size: .9em;
+
+  }
+
+
+  .innitproduct{
+margin-left: 5%;
+  font-size: 3em;
+
+  }
+    .innitproduct1{
+margin-left: 5%;
+margin-top: 0;
+
+
+  }
+  #prodstore{
+    height: 10%;
+  }
+    #innitprodstore{
+    height: 70%;
+    width: 100%;
+  }
+    #prodbuy{
+    height: 20%;
+  }
+   .btn{
+    top: 50%;
+    width: 150px;
+    height: 45px;
+    line-height: 30px;
+    font-size: .95em;
+  }
+     .btn:before{
+    line-height: 42px;
+    font-size: .95em;
+  }
+
+  .disclaimer{
+  font-size: .8em;
+  line-height: 30px;
+  height: 30px;
+}
+
+.logged{
+  height: 50px;
+}
+.logo{
+  width:100px;
+  height: 50px;
+
+}
+.int{
+  font-size: 2em;
+  text-shadow: 2px -2px 1px #fff;
+  letter-spacing: 5px;
+}
+
+.onshop{
+  height: auto;
+  margin-top: -8%;
+  color: #fff;
+  font-size: .4em;
+  letter-spacing: 5px;
+}
+.story{
+  width:auto;
+  height: 50px;
+  margin-right: 5%;
+  line-height: 50px;
+  font-size: 1.15em;
+}
+
+.hr{
+  width: 120%;
+  margin-top: -20%;
+}
+}
+
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <div class="brand wow fadeInUp" data-wow-delay="1s">
+    <div class="disclaimer"><marquee>We Ship Outsourced Products To Kenya Within 30 Business Days!!!</marquee></div>
+    <div class="logged">
+      <div class="logo">
+        <div class="int">Init</div>
+        <div class="onshop">Online Shopping</div>
+      </div>
+      <div class="story">Our Story <hr class="hr"></div>
+    </div>
+  </div>
+
+
+  <div id="myCarousel" class="carousel slide wow bounceInLeft" data-wow-delay="1s" data-ride="carousel">
+
+<!--     <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+      <li data-target="#myCarousel" data-slide-to="3"></li>
+    </ol>
+ -->
+  
+    <div class="carousel-inner" role="listbox">
+
+      <div class="item active">
+        <img src="media/66.png" alt="Chania">
+
+      </div>
+
+      <div class="item">
+        <img src="media/55.png" alt="Chania">
+
+      </div>
+    
+      <div class="item">
+        <img src="media/77.png" alt="Flower">
+
+      </div>
+
+      <!-- <div class="item">
+        <img src="media/44.png" alt="Flower">
+      </div> -->
+  
+    </div>
+</div>
+
+<div id="myCarousel1" class="wow bounceInRight" data-wow-delay="1s">
+  <div id="prodstore"><p class="product">Product</p></div>
+  <div id="innitprodstore"><p class="innitproduct">Rings</p><br>
+    <p class="innitproduct1">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+    consequat.</p>
+  </div>
+  <div id="prodbuy">
+    <div class="btn">Shop More</div>
+  </div>
+
+<!--     <div class="otherproducts"></div>   
+    <div class="otherproducts1"></div>    
+    <div class="otherproducts2"></div>   -->  
+
+</div>
+</div>
+
+
+
+<div id="product">
+  <!-- <div id="my-search-71575968"></div>
+        <div>
+            <script data-cfasync="false" type="text/javascript" src="https://app.ecwid.com/script.js?71575968&data_platform=code&data_date=2022-08-02" charset="utf-8"></script>
+            <script type="text/javascript"> xSearch("id=my-search-71575968"); </script>
+        </div> -->
+
+
+
+
+<!--     <div id="my-categories-71575968"></div>
+        <div>
+            <script data-cfasync="false" type="text/javascript" src="https://app.ecwid.com/script.js?71575968&data_platform=code&data_date=2022-08-02" charset="utf-8"></script>
+            <script type="text/javascript"> xCategoriesV2("id=my-categories-71575968"); </script>
+
+          <div class="end-ground">
+    
+          </div>        
+        </div>   -->
+
+
+    <div class="ec-cart-widget"></div>
+        <div>
+            <script data-cfasync="false" type="text/javascript" src="https://app.ecwid.com/script.js?71575968&data_platform=code&data_date=2022-08-02" charset="utf-8"></script>
+            <script type="text/javascript">Ecwid.init();</script>
+        </div> 
+      
+
+    <div id="my-store-71575968"></div>
+        <div>
+            <script data-cfasync="false" type="text/javascript" src="https://app.ecwid.com/script.js?71575968&data_platform=code&data_date=2022-08-02" charset="utf-8"></script><script type="text/javascript"> xProductBrowser("categoriesPerRow=3","views=grid(20,3) list(60) table(60)","categoryView=grid","searchView=list","id=my-store-71575968");</script>
+        </div>
+
+</div>
+
+
+
+
+
+
+
+<script src="media/jquery.js"></script>
+<script src="media/wow.min.js"></script>
+<script src="media/bootstrap.min.js"></script>
+
+
+<script type="text/javascript">
+
+const btnChanger = document.querySelector('.btn').offsetHeight;
+var innerWidth = window.innerWidth;
+var innerHeight = window.innerWidth;
+
+    
+const height = document.querySelector('#myCarousel').offsetHeight;
+$('#myCarousel1').css({height:height});
+
+
+const height1 = document.querySelector('.container').offsetHeight;
+$('#product').css({marginTop:height1});
+
+
+
+
+var height2 = document.querySelector('#myCarousel').offsetTop;
+
+if (innerHeight < height2) {
+$('.ec-cart-widget').css({position:"fixed"});
+}else{
+$('.ec-cart-widget').css({position:"relative"});
+}
+
+console.log(height2);
+
+
+
+// $('.btn').mouseover(function(){
+//     $('head').append('<style> .btn:before{animation:slide .3s linear forwards;animation-delay: .1s;animation-iteration-count: 1;}</style>');
+
+// });
+
+// $('.btn').mouseout(function(){
+//     $('head').append('<style> .btn:before{animation:slid .3s linear forwards;animation-delay: 0s;animation-iteration-count: 1;}</style>');
+
+// });
+
+
+$('.story').mouseover(function(){
+
+    $('.hr').animate({width:"0%"}, 500);
+
+});
+
+$('.story').mouseout(function(){
+  if (innerWidth < 750) {
+    $('.hr').animate({width:"120%"}, 500);
+  }else{
+    $('.hr').animate({width:"150%"}, 500);
+  }
+
+});
+
+</script>
+</body>
+</html>

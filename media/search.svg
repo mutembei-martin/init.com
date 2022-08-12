@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 12.5">
+	<defs>
+		<style>.cls-1,.cls-2{fill:none;stroke-miterlimit:10;}
+			.cls-1{stroke:#fff;stroke-width:3px;}
+    		.cls-1{stroke-dasharray: 500; stroke-dashoffset:0; animation:dash 15s linear forwards;animation-iteration-count: infinite;}
+			.cls-2{stroke:#fff;stroke-width:2px;}
+
+			        @-webkit-keyframes dash{
+					    0%{
+					        stroke-dashoffset:0;
+					        
+					    }
+					    25%{
+					        stroke-dashoffset:500;
+					        
+					    }
+					    50%{
+					        stroke-dashoffset:0;
+					        
+					    }75%{
+					        stroke-dashoffset:-500;
+					        
+					    }
+					    100%{
+					        stroke-dashoffset:0;
+					        
+					    }
+					    }
+
+		</style>
+	</defs>
+	<g id="Layer_2" data-name="Layer 2">
+		<g id="Layer_1-2" data-name="Layer 1"><path class="cls-1" d="M10.13,8.92l3.94,2.76"/><circle class="cls-2" cx="7" cy="6" r="5.5"/>
+		</g>
+	</g>
+</svg>
