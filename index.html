@@ -16,6 +16,17 @@ body{
   /*overflow: hidden;*/
   background: #262626;
 }
+    
+#contained{
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  background: #262626;
+  z-index: 1;
+}
+    
   .container{
     position: fixed;
     top: 0;
@@ -520,6 +531,9 @@ margin-top: 0;
   </style>
 </head>
 <body>
+  
+  <div id="contained"></div>
+  
 
 <div class="container">
   <div class="brand wow fadeInUp" data-wow-delay="1s">
